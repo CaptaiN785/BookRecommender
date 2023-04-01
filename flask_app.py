@@ -10,8 +10,9 @@ book_list = br.get_book_list()
 def home():
     rm_books = []
     isError = False
+    book_name = None
     if request.method == "POST":
-        isbn = request.form["isbn"]
+        isbn = request.form["isbn"].split()[-1]
         try:
             rm_books, book_name = br.recommend(isbn)
         except KeyError as e:
