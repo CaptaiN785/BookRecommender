@@ -3,7 +3,7 @@ pandas
 numpy
 matplotlib
 streamlit
-sklearn
+scikit-learn
 requests
 pillow
 tqdm
