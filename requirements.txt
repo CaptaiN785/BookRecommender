@@ -3,4 +3,7 @@ pandas
 numpy
 matplotlib
 streamlit
-pickle
+sklearn
+requests
+pillow
+tqdm
